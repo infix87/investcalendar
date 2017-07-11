@@ -33,7 +33,7 @@ public class UserLoginServlet extends HttpServlet {
 		if(result == 1) {
 			HttpSession session = request.getSession(true);
 			if(session != null) {
-				session.setAttribute("userID", userID);
+				session.setAttribute("userID", userID);				
 			}
 			response.sendRedirect("index.jsp");
 			return;			

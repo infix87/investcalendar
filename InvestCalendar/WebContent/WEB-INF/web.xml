@@ -18,6 +18,30 @@
     <url-pattern>/userLogin</url-pattern>
   </servlet-mapping>
   <servlet>
+    <servlet-name>UserRegisterServlet</servlet-name>
+    <servlet-class>user.UserRegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserRegisterServlet</servlet-name>
+    <url-pattern>/userRegister</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserUpdateServlet</servlet-name>
+    <servlet-class>user.UserUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserUpdateServlet</servlet-name>
+    <url-pattern>/userUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>InfoVoteServlet</servlet-name>
+    <servlet-class>info.InfoVoteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InfoVoteServlet</servlet-name>
+    <url-pattern>/infoVote</url-pattern>
+  </servlet-mapping>  
+  <servlet>
     <servlet-name>InfoWriteServlet</servlet-name>
     <servlet-class>info.InfoWriteServlet</servlet-class>
   </servlet>
